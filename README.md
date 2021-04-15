@@ -1,4 +1,4 @@
-![logo](/images/logo.png)
+![logo](/images/logo01.png)
 # DXMacros
 
 > A Lua script that turns a Numpad or a Keyboard device into unique keys.
