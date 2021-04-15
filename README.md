@@ -77,7 +77,7 @@
 > > ![How to use 9](/images/How_to_use9.png)
 >
 > 4. copy this code and paste it below the **`-- Add the commands here --`** line
-> > ![How to use 9](/images/How_to_use9.png)
+> > ![How to use 10](/images/How_to_use10.png)
 >
 > 5. change the setting option back to **false**, save the file and press the play button
-> > ![How to use 9](/images/How_to_use9.png)
+> > ![How to use 11](/images/How_to_use11.png)
