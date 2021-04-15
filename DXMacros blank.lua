@@ -5,7 +5,7 @@
 
 
 --Activates the setting [ true / false ]
-setting = true
+setting = false
 
 --device ID
 device = ''
@@ -16,7 +16,7 @@ minimize = false
 --when minimize go to Tray [ true / false ]
 lmc.minimizeToTray = true
 
-teclas = {}
+keys = {}
 -- Add the commands here --
 
 
@@ -50,21 +50,21 @@ if(inicio) then
 		modifire={'+','^','%'}
 		lmc_set_handler('MACROS',function(button, direction)
 			if (direction == 1) then return end
-			if ( teclas[button] == nil and temp) then
+			if ( keys[button] == nil and temp) then
 				c=0
 				tt=true
 				while tt do
 					f=true
 					t= modifire[math.floor(c/12)+1] .. "{F" .. (c%12 + 13) .. "}"
-					for i,v in pairs(teclas) do
+					for i,v in pairs(keys) do
 						if( v == t ) and f then
 							f=false
 						end
 					end
 					if( f ) then
 						tt=false
-						teclas[button]=t
-						print("teclas["..button.."]"..string.rep(" ",4-string.len(tostring(button))).. "= '"..t.."' --")
+						keys[button]=t
+						print("keys["..button.."]"..string.rep(" ",4-string.len(tostring(button))).. "= '"..t.."' --")
 					else
 						c=c+1
 					end
@@ -78,10 +78,10 @@ if(inicio) then
 		print("-------------[ USE MODE ]-------------")
 		lmc_set_handler('MACROS',function(button, direction)
 		   if (direction == 1) then return end
-		   if ( teclas[button] == nil )  then
-			  print('Não definido: ' .. button)
+		   if ( keys[button] == nil )  then
+			  --print('key undefined: ' .. button)
 		   else
-			   lmc_send_keys(teclas[button], 50)
+			   lmc_send_keys(keys[button], 50)
 		   end
 		end)
 	end
