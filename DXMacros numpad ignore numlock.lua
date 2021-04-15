@@ -13,6 +13,9 @@ device = ''
 --Automatically minimize [ true / false ]
 minimize = false
 
+--when minimize go to Tray [ true / false ]
+lmc.minimizeToTray = true
+
 teclas = {}
 -- Add the commands here --
 
@@ -59,7 +62,6 @@ teclas[9]   = '^{F19}' --Tab
 
 ---------- Dont touch ----------
 if( minimize ) then
-    lmc.minimizeToTray = true
     lmc_minimize()
 end
 inicio = false

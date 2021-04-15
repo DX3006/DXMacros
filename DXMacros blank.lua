@@ -13,6 +13,9 @@ device = ''
 --Automatically minimize [ true / false ]
 minimize = false
 
+--when minimize go to Tray [ true / false ]
+lmc.minimizeToTray = true
+
 teclas = {}
 -- Add the commands here --
 
