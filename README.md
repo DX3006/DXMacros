@@ -1,15 +1,17 @@
 # DXMacros
 
-> A Lua script that turns a Numpad or keyboard device into unique keys.
+> A Lua script that turns a Numpad or a Keyboard device into unique keys.
 > 
-> This script was thought to be used to help Streamers by giving an alternative to the stream deck or to be used in simulator.
+> This script was thought to be used to help Streamers by giving an alternative to the stream deck or to be used in simulators.
 > 
->To achieve this, the program suppresses the numpad keys and converts them to unused keys (F13 to F24) with the combination of special keys (Shift, Ctrl and Alt), this way having 36 unique key combinations available to be used.
+>To achieve this, the program suppresses all keys of a selected device and converts them to unused keys(F13 to F24) with the combination of special keys (Shift, Ctrl and Alt), this way having 36 unique key combinations available to be used.
+>
+>This sctipt suppresses the entire divice so a secondary keyboard or numpad must be used
 
 # Why not use HudMacros
-> _HudMacros_ is a program already known for suppressing and remapping the keys, but it fails in many cases not correctly suppressing the keys.
+> _HudMacros_ is a program already known for suppressing and remapping the keys, but it fails in many cases by not correctly suppressing the keys.
 >
-> This way the programs can have not desired behavior, for example: pressing a numpad 1 on a youtube video instead of having key suppressed Chrome interprets the key and change the time of the video
+> This way the program can have a few not desired behaviors, for example: pressing a numpad 1 on a youtube video, instead of having the key suppressed, Chrome interprets the key and change the time of the video
 >
 > _LuaMacros_ solves this problem partially, the number of programs that LuaMacros fails to suppress is much smaller (so far the only program i found that it fails is Discord)
 
@@ -21,7 +23,9 @@
 
 
 2. **Downloading DXMacros**
-> After that you will need to download one of the three available files, each one having a diferent behavior
+> After that you will need to download one of the three available files, each one having a diferent behavior.
+> 
+> I recommend using the **`DXMacros full numpad.lua`** or **`DXMacros numpad ignore numlock.lua`** file since it already comes with the pre-configured numped
 > 
 > ### DXMacros full numpad.lua:
 > > Each key on the numpad is remap to unique key, enable or disable the numlock will result in other keys.
@@ -30,7 +34,7 @@
 > > Each key on the numpad is remap to unique key independent if numlock is on or off.
 > 
 > ### DXMacros blank.lua
-> > an empty file w that only contains the logic of the program, So that you can add your own keys manually.
+> > that only contains the logic of the program, So that you can add your own keys manually.
 
 
 3. **Configuring _LuaMacros_ and _DXMacros_**
