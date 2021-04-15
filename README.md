@@ -67,9 +67,9 @@
 > > ![How to use 6](/images/How_to_use6.png)
 
 #### 4. Making a shortcut to automatically run the file
-> 1. create a shortcut to ** LuaMacros.exe ** on the desktop.
+> ##### 1. create a shortcut to ** LuaMacros.exe ** on the desktop.
 > 
-> 2. go to the properties of this shortcut in the target option then go to the end of te text and put in quotes the location of the script you downloaded, and at the end of that put **-r** .
+> ##### 2. go to the properties of this shortcut in the target option then go to the end of te text and put in quotes the location of the script you downloaded, and at the end of that put **-r** .
 >> it should look something like this:
 >> 
 >> **`"[location of LuaMacros.exe]" "[script file location]" -r`**
