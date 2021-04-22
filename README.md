@@ -97,3 +97,10 @@
 > ##### 5. change the setting option back to **false**, save the file and press the play button
 > 
 > > ![How to use 11](/images/How_to_use11.png)
+
+# Contributing
+> If you would like to contribute and accelerate the development of this tool, consider making a donation.
+> 
+> [ ![logo](https://i.imgur.com/Rg2aYdv.png ) ](https://dx3006.github.io/DXPN/)
+
+
