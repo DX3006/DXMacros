@@ -1,7 +1,7 @@
 ![logo](/images/logo.png)
 # DXMacros
 
-> A Lua script that turns a Numpad or a Keyboard device into unique keys.
+> A Lua script to be used in LuaMacro that turns a Numpad or a Keyboard device into unique keys.
 > 
 > This script was thought to be used to help Streamers by giving an alternative to the stream deck or to be used in simulators.
 > 
