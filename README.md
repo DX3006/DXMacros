@@ -98,7 +98,7 @@
 > 
 > > ![How to use 11](/images/How_to_use11.png)
 
-# Contributing
+# Donations
 > If you would like to contribute and accelerate the development of this tool, consider making a donation.
 > 
 > [ ![Paypal]( /images/paypal_button.png ) ](https://dx3006.github.io/DXPN/)
