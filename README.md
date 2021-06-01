@@ -101,6 +101,6 @@
 # Donations
 > If you would like to contribute and accelerate the development of this tool, consider making a donation.
 > 
-> [ ![Paypal]( /images/paypal_button.png ) ](https://dx3006.github.io/DXPN/)
+> [ ![Paypal]( /images/paypal_button.png ) ](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7G2SFFMS46ZZ8)
 
 
